@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Conway's Game of Life
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+An implementation of Conway's Game of Life using Typescript and React Hooks.
 
-## Available Scripts
+## Table of Contents
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+	- [Static Site](#static-site)
+- [Maintainer](#maintainer)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Background
 
-### `npm start`
+This project was created as an excuse to finally learn TypeScript as well as strengthen my understanding of React Hooks. I first learned of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in my algorithms class during my undergrad at [MSU Denver](https://www.msudenver.edu/), and decided it was a good project requiring state manipulation that would be perfect for React Hooks, also choosing this as my first TypeScript project.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Install
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use this application, clone the repository or download and extract it to a location of your choice. Afterwards, navigate to the cloned repository in your terminal and install the npm dependencies.
 
-### `npm run build`
+```sh
+$ npm install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After dependencies have been installed, you can start the development environment which will start the node server as well as a self-refreshing instance of the application in your default web browser.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Static Site
 
-### `npm run eject`
+If you would like a static, minified, hostable version of the application, simply run the create-react-app build script
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+$ npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will generate a `/build` directory in the root of the project which you can directly host on your provider of choice.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Maintainer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[@RyanHiller](https://github.com/RyanHiller)
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to [open an issue](https://github.com/RyanHiller/Game-of-Life-TS/issues/new) or make a PR.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+[MIT](LICENSE) © Ryan Hiller

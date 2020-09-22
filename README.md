@@ -53,4 +53,4 @@ Feel free to [open an issue](https://github.com/RyanHiller/Game-of-Life-TS/issue
 
 ## License
 
-[MIT](https://github.com/RyanHiller/Game-of-Life-TS/LICENSE.md) © Ryan Hiller
+[MIT](LICENSE.md) © Ryan Hiller

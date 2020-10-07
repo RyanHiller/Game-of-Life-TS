@@ -1,5 +1,5 @@
 # Conway's Game of Life
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)  
 An implementation of Conway's Game of Life using Typescript and React Hooks.
 
 ## Table of Contents
